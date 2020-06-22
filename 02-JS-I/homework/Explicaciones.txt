@@ -1,0 +1,35 @@
+Variable: Basicamente, es un lugar donde se puede guardar un dato, ya sea: un numero, una palabra, etc. Para dar un ejemplo:
+Guardamos un valor numerico en las dos letras
+a = 1
+b = 2
+Ahora "a" valdra 1 y "b" valdra 2
+Podemos utilizarlas las variables para hacer operaciones matematicas entre otras diversas tareas. Por ejemplo:
+a + b = 3
+Como podemos observar tomamos las dos variables anteriores (ya con valores asignados) y simplemente las sumamos y nos dio 3, ya que:
+1 + 2 = 3
+Tambien como dijimos antes se puede almacenar un dato, es decir:
+c = "hola"
+d = "adios"
+Hay que aclarar que dichas variables tambien se pueden reutilizar para otras tareas.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Strings: Este es el nombre que se le da a las palabras en Javascript. Ojo, solo a las palabras o conjunto de caracteres que estén entre " " en el código.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Función: Es la forma en la que podemos agrupar muchos instrucciones, asignarle un nombre identificatorio a esa agrupación y llamarla para realizar una tarea y que nos devuelva un valor. Básicamente esto se hace para no tener que escribir repetidas veces las mismas instrucciones.
+
+Argumentos: Son variables, o mejor dicho espacios libres dónde colocaremos un dato: ya sea una palabra o un número, para que luego la función nos devuelva algo, por ejemplo un texto que incluya los datos que agregamos o un resultado númerico, si es que ingresamos números.
+
+Return: Es una instrucción que utilizamos para que la función nos devuelva "algo" ya sea un valor o un texto.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+If: Es una instrucción para verificar un dato, si el dato cumple con un parámetro (valor o limitación) dicha instruccion realizará una tarea o no.
+
+Por ejemplo: en una clase de 30 alumnos, colocamos un parámetro que indiqué que si asistieron más de 15 alumnos la instrucción diga: "la mayoría de alumnos están presentes" y en caso de que la cantidad de alumnos sea inferior a 15 indiqué: "la mayoría de alumnos no están presentes".
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+True y false: Son dos estados para indicar, si y no. True = si y False = no, son utilizados para comprobar si un dato cumple con algunos parámetros establecidos, si los cumple se asigna "true", y si no, se asigna "false".
