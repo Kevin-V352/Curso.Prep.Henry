@@ -1,0 +1,45 @@
+For: Es una instruccion que utilizamos para repetir un una operacion (o mejor dicho que entre en un "bucle") un determinado numero de veces, esta consta de tres partes: un variable, una condicion y un accion que se ejecutara si se cumple la condicion.
+Ejemplo: 
+
+for (var i = 0;i < 10; i++){
+    console.log(i);
+}
+
+Como se ve en el ejemplo, en la primera parte consta de declarar el valor de la variable "i", en la segunda se coloca la condicion del bucle (se repetira mientras "i" sea menor que 10), y por ultimo tenemos la accion que se ejecutara mientras la condicion se cumpla, que en este caso es incrementar la variable "i" una vez por vuelta. Mientas el bucle se seguira ejecutando la instruccion anidada (imprimir el valor de "i"), por ultimo cuando "i" sea mayor que 10 el bucle se terminara.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+&&: Se trata de un operador logico que tiene por tarea indicar al programa que se tienen que cumplir ambas condiciones para que se ejecute una funcion, por ejemplo:
+
+num = 10
+if(num > 5 && num < 20){
+    return true;
+}
+    return false;
+
+En este caso para que se devuelva true se tienen que cumplir esas dos condiciones al mismo tiempo, sino el programa saltara la instruccion y nos devolvera false.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+||: Este operador es similar antes mencionado, sin embargo en este caso con que unicamente se cumpla una condicion es suficiente para que la istruccion anidada se ejecute, por ejemplo:
+
+num = 10
+if(num < 5 || num = 10){
+    return true;
+}
+    return false;
+
+En esta ocasion nos devolvera un true, ya que una de las condiciones se esta cumpliendo, no necesariamente se deben cumplir ambas como en el caso anterior.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+!: Este es el operador logico de negacion, se utiliza para negar el valor de algo, es decir, obtener el valor contrario al valor original. 
+Ejemplo:
+
+var num = 3
+if (!num == 3){
+    return true;
+}
+    return false;
+
+En este ejemplo el resultado que nos devolvera sera "false" ya que el operador "!" esta negando la variable "num" en la condicion if.
