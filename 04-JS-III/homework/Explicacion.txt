@@ -1,0 +1,22 @@
+Array: Su funcionamiento es similar al de una variable, sin embargo la misma contiene una serie de datos en un orden estructurado predefinido por el programador.
+Ej:
+var matriz = [1, 2, 3, 4, 5, 6];
+
+Cabe resaltar que se puede seleccionar un valor en concreto de la lista, mediante un indice colocado entre "brackets" (corchetes).
+Nota: se comienza a contar desde el cero.
+Ej:
+
+matriz[0]
+salida: 1
+
+matriz[1]
+salida: 2
+
+Tambien se pueden hacer operaciones con ellas.
+Ej:
+
+matriz[0] + matriz[1]
+salida: 3
+
+
+
