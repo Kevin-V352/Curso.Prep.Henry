@@ -1,0 +1,87 @@
+Objetos: Un objeto es muy similar a una varibale, en el sentido de que ambos almacenan informacion. Sin embargo, se podria decir que en los objetos la informacion se presenta en forma de tabla, y que esta relacionada con algo especifico, ademas la misma se compone de dos partes, por un lado esta la CLAVE en donde se almacena una valor, y el propio valor contenido en si. Se presenta el siguiente ejemplo:,
+
+var coche = {
+  color: "rojo",
+  marca: "Ford",
+  modelo: "Mondeo"
+};
+
+Como se puede apreciar el OBJETO "coche" contiene una serie de datos relacionados con el, cada dato esta compuesto por la CLAVE que serian: color, marca, modelo y por su correspondiente valor interno adjunto: rojo, Ford, Mondeo.
+
+///////////////////////////////////////////////////////////
+
+Propiedades: Basicamente una "propiedad" es una variable contenida dentro de un objeto. Las propiedades suelen estar directamente relacionada al contexto del objeto.
+
+Ejemplo:
+
+var ordenador = {
+  sistema operativo: "Windows 10",
+  procesador: Ryzen 5 2600,
+  ram:"16GB"
+  almacenamiento: "SSD 1 TB"
+  fuente: "600W"
+  gpu: "RTX 2060 super"
+  placa base: "MSI X470GPLUS"
+  };
+
+///////////////////////////////////////////////////////////
+
+Metodos: Un "metodo" en resumidas cuentas es una funcion contenida dentro de una propiedad.
+
+Ejemplo:
+
+var persona = {
+    nombre: "Kevin",
+    apellido : "Vega",
+    nombreCompleto : function() {
+       return this.nombre + " " + this.apellido;
+    }
+};
+
+En este caso el metodo seria "nombreCompleto".
+
+///////////////////////////////////////////////////////////
+
+Bucle ´for... in´: Su funcionalidad es similar a la de un bucle "for" convencional, sin embargo la misma esta mas orientada a objetos.
+
+Ejemplo:
+
+var object = {
+  foo : 1,
+  bar : 2,
+  anotherProperty : 3
+}
+
+for( var property in object ){
+  console.log( object[property] );
+};
+
+///////////////////////////////////////////////////////////
+
+Notación de puntos vs notación de corchetes: Ambos metodos apuntan a lo mismo, que es acceder a la propiedad de un objeto. Cabe mencionar las diferencias entre ambas, ya que se pueden realizar acciones con el metodo de corchetes que son imposibles utilizando puntos.
+
+Ejemplo:
+
+var miGato = {
+    nombre: "Tom",
+    raza: "Cartujo",
+    edad: 2,
+    numero de vidas: 7,
+    direccion: {
+    ciudad: "San Lorenzo"
+    }
+};
+
+Notacion corchetes: console.log(miGato.nombre); // Tom
+
+Notacion con punto: console.log(miGato["nombre"]); // Tom
+
+Diferencias: Al utilizar corchetes se puede ingresar propiedades cuya notacion este separada por espacios, tambien para la seleccion mediante variables.
+
+Ejemplo:
+
+Acceder a propiedades de otras propiedades:
+
+console.log(miGato["direccion"]["ciudad"]);
+
+console.log(miGato["numero de vidas"]);
