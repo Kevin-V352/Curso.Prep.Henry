@@ -1,0 +1,5 @@
+prototype: Básicamente es un objeto que se utiliza como una fuente de propiedades alternativas (cuando le pedimos a un objeto una propiedad que no tiene, la busca en su "prototype").
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Constructor: Es una función común y corriente que se utiliza para definir una especie de plantilla (llamada clase) para una serie de objetos que compartan características de dicha plantilla.
