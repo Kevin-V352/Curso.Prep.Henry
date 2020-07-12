@@ -1,0 +1,17 @@
+Funciones Callback: Un "Callback" es una función que se pasa como parámetro de otra función y se ejecuta dentro de esta.
+
+Ejemplo:
+//Se crea una función para sumar dos parámetros "a" y "b", el tercer parámetro esta ocupado por la función que se va a llamar:
+        function calculo (a, b, callback){
+           var sum = a + b;
+           callback(sum);
+        }
+//Se crea la función que se va a pasar como parametro. Esta función agregara un string al resultado de la principal.
+        function complemento(valor){
+        console.log("Su resultado es: " + valor);
+        }
+//Función puesta en marcha:
+
+        calculo (5, 10, complemento);
+
+        Output: Su resultado es: 15
