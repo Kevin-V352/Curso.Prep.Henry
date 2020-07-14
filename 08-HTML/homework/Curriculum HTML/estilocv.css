@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "fuente regular";
+  src:url("Krub-Regular.ttf");
+}
+
+#principal{
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  background-color: #EAEDED;
+}
+figure {
+  background-color: #1F618D;
+  padding: 4px;
+  padding-bottom: 0px;
+
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+
+header {
+  background-color: #1F618D;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+
+div{
+  font-family: fuente regular;
+  background-color: #BFC9CA;
+  border-radius: 10px;
+  padding: 20px;
+}

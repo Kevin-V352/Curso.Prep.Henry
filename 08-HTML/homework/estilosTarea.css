@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "improvisada";
+  src:url("VarelaRound-Regular.ttf");
+}
+
+
+body{
+  background-image: url(https://s2.best-wallpaper.net/wallpaper/3840x2160/1806/Spaghetti-tomatoes-noodle_3840x2160.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+h1{
+  font-family: improvisada;
+ color:#D7370F;
+}
+
+img{
+  width:400px;
+}
+
+#thirdDiv{
+  width:500px;
+  height:auto;
+  background-color:#D47E13;
+  padding:50px;
+  border: 20px dashed #D7370F;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#spanId{
+  font-family: improvisada;
+  font-size:18px;
+  margin:50px;
+}
+
+.divClass{
+  font-family: improvisada;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  background-color:#D47E13;
+  text-align: center;
+}
